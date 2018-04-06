@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.icterguru.coolresume.WorkHistoryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work History"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="
+PROFESSIONAL SUMMARY:
+•	Experienced in all phases of Software Development Lifecycle and Software Testing Lifecycle.
+•	Hands-on experienced in developing Automated Test Framework with HP QTP/UFT and Selenium WebDriver along with related tools and technologies such as TestNG, Log4J, XSLT, Cucumber, etc. and continuous integration with ANT/Maven and Jenkins.
+•	Skilled in analyzing business requirements, preparing and executing test plan, test cases, use cases; and performing smoke testing, functional testing, backend testing, black-box testing, white-box testing, integration testing, regression testing and user acceptance testing.
+•	Hands-on experienced in Agile methodologies such as SCRUM, Waterfall Model and Test Driven Development with Jenkins, Confluence and JIRA tools for tracking stories in a Project.
+•	Excellent in developing and testing core software and third party web and client/server applications; and hosting them on Amazon AWS Web Services on Apache Tomcat, JBoss, and Oracle Application Server.
+•	Experienced in analysis, design, and development of client-server, distributed and web applications using Core Java and J2EE Technologies such as JDBC, Hibernate, Spring MVC, Spring Data JPA, etc.
+•	Knowledgeable in client scripting language and server scripting languages and Web Application Development using C, C++, Python, JavaScript, JQuery, JSON, Angular 2 and Node JS, HTML5, Oracle, SQL Server, with Microsoft .net and C#, and MySQL and NoSQL DB like MongoDB.
+•	Familiar in designing RESTful Web Services for consuming and creating data using Jersey.
+•	Expert in analyzing quantitative data with parametric and non-parametric statistical tests using SPSS for Windows and qualitative data using MAXQDA.
+•	Excellent theoretical and practical background in object-oriented analysis, design and programming; and software specification including UML diagramming, and data modeling.
+•	Self-motivated, team player, quick learner and able to handle multiple projects concurrently.
+•	Able to work independently as well as within a team environment. Able to train co-workers and company’s newly hired and existing employees being familiar and expert with new tools and technologies.
+•	Excellent in developing a strong understanding of the project and testing objectives; and to be responsible for completing system testing to ensure company’s products and services meet organizational standards and end-user requirements.
+•	Have excellent communication, interpersonal, and presentation skills, in order to interact with business analysts, project managers, development team, clients, and project stakeholders.
+
+" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
